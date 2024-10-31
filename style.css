@@ -1,0 +1,121 @@
+/* HERO SECTION  */
+.hero {
+    position: relative;
+    max-height: 600px; 
+    overflow: hidden;
+}
+  
+.carousel-item img {
+    object-fit: cover; 
+    width: 100%;
+    height: 600px; 
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    color: white; 
+    padding: 0 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .carousel-caption h3 {
+        font-size: 1.5rem; 
+    }
+}
+  
+/* ABOUT US  */
+#about .about-content p{
+    font-size: 18px;
+}
+
+.about-btn {
+    width: 7rem;
+    height: 2.5rem;
+    border: none;
+    border: solid black 1px;
+    border-radius: 3px;
+    background-color: #F6E96B;
+    color: #333333;
+    font-weight: 500;
+}
+
+/* VISION & MISSION */
+
+#vision {
+    background-image: url('images/vision-bg.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff;
+}
+
+#vision .vision-content {
+    padding-left: 120px;
+}
+
+#vision .vision-img img{
+    width: 100%;
+    height: auto;
+    padding-right: 120px;
+}
+
+#vision .vision-content p {
+    font-size: 18px;
+    color: #fff;
+}
+
+#vision .vision-content .vision-para {
+    background-color: rgba(19, 60, 19, 0.523);
+    padding: 20px;
+}
+
+.vision-btn {
+    width: 7rem;
+    height: 2.5rem;
+    border: none;
+    border: solid black 1px;
+    border-radius: 3px;
+    background-color: #F5F5F5;
+    color: #333333;
+    font-weight: 500;
+}
+
+/* GALLERY  */
+#gallery {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.gallery-img {
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+/* PLACEMENTS */
+#placements {
+    background-color: #F6E96B;
+    padding: 50px 0;
+}
+
+#placements h4 {
+    color: #2b5e5a;
+    font-weight: 600;
+}
+
+#placements h3 {
+    text-align: center;
+}
